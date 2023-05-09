@@ -9,6 +9,10 @@
    ========================================================================== */
 
 /* ---- base ---- */
+* {
+ margin: 0;
+ padding: 0;
+}
 html,body{ 
 
 	background:black;
@@ -16,8 +20,7 @@ html,body{
 	margin:0;
 }
 #particles-js{
-  width: 100vw;
-  height: 100vh;
+
   background-color: black;
 
   background-size: cover;
